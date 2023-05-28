@@ -1,5 +1,4 @@
 import axios from "axios";
-import { onMount } from "svelte";
 
 import { DISCORD_BOTTOKEN, DISCORD_USERID } from '$env/static/private';
 const disocrdApi = axios.create({
