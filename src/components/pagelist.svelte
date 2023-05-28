@@ -15,13 +15,13 @@
     let socials = [
         {name:"vk",icon:faVk},
         {name:"discord",icon:faDiscord},
-        {name:"telegram",icon:faTelegram},
-        {name:"github",icon:faGithub},
-        {name:"soundcloud",icon:faSoundcloud},
-        {name:"steam",icon:faSteam},
-        {name:"spotify",icon:faSpotify},
-        {name:"youtube",icon:faYoutube},
-        {name:"keybase",icon:faKeybase},
+        //{name:"telegram",icon:faTelegram},
+        //{name:"github",icon:faGithub},
+        //{name:"soundcloud",icon:faSoundcloud},
+        //{name:"steam",icon:faSteam},
+        //{name:"spotify",icon:faSpotify},
+        //{name:"youtube",icon:faYoutube},
+        //{name:"keybase",icon:faKeybase},
     ]
 </script>
 
