@@ -19,5 +19,6 @@
 This is where i post from (mostly)
 
 there you can most probably speak with me but i still could not answer you so yeah
+you can't make link a discord profile so you need to copy name above
     </Profile>
 </div>

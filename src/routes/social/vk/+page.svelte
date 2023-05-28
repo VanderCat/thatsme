@@ -16,8 +16,8 @@
 <div>
     <Profile pfp={pfp==""?"empty":pfp}>
         <h2 slot="header">{name==""?"Loading name...":name}</h2>
-This is where i post from (mostly)
+That russian social media.
 
-there you can most probably speak with me but i still could not answer you so yeah
+oh yeah you can link this one so [here ya go](http://vk.com/vander_cat)
     </Profile>
 </div>
