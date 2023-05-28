@@ -1,17 +1,11 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-vercel';
 
 const dev = process.argv.includes('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter({
-            pages: 'build',
-            assets: 'build',
-            fallback: undefined,
-            precompress: false,
-            strict: true
-        })
+		adapter: adapter({})
 	},
 	paths: {
 		base: dev ? '' : process.env.BASE_PATH,
