@@ -17,10 +17,13 @@
 	"type": "module",
 	"dependencies": {
 		"@discordjs/core": "^0.6.0",
+		"@fortawesome/free-brands-svg-icons": "^6.4.0",
+		"@fortawesome/free-solid-svg-icons": "^6.4.0",
 		"axios": "^1.4.0",
 		"dayjs": "^1.11.7",
 		"gardevoir": "^1.0.0",
 		"inter-ui": "^3.19.3",
+		"svelte-fa": "^3.0.4",
 		"svelte-markdown": "^0.2.3"
 	}
 }

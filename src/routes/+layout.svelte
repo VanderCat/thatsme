@@ -49,6 +49,10 @@
         color: white;
         height: 304px;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         background-color: black;
         box-sizing: border-box;
         -webkit-box-shadow:inset 0px 0px 0px 4px #e5d, 0px 2px 6px rgba(0, 0, 0, 0.25);
@@ -71,6 +75,7 @@
     import "gardevoir";
     import Logo from "../components/Logo.svelte";
     import Subtext from "../components/Subtext.svelte";
+    import Pagelist from "../components/pagelist.svelte";
 </script>
 
 <div class="fullScreen">
@@ -81,6 +86,7 @@
                 <div class="DescriptionContainer">
                     <slot/>
                 </div>
+                <Pagelist/>
             </div>
             <Subtext/>
         </div>
